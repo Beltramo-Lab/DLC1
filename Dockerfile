@@ -11,7 +11,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa #ADDS NEW REPO
 #RUN apt-get update && apt-get -y install ffmpeg
 
 
-RUN pip install tensorflow-gpu==1.15.1
+RUN pip install tensorflow-gpu==1.15.4
 #see issue #25:
 RUN pip install --upgrade pip 
 
