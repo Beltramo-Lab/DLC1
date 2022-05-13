@@ -13,7 +13,8 @@ RUN add-apt-repository ppa:deadsnakes/ppa #ADDS NEW REPO
 
 #RUN pip install tensorflow-gpu==1.15.4
 #RUN pip install tensorflow-gpu==1.15.0
-RUN pip install tensorflow-gpu==2.5.0
+£RUN pip install tensorflow-gpu==2.5.0
+RUN pip install tensorflow-gpu==1.15.0
 
 #see issue #25:
 RUN pip install --upgrade pip 
